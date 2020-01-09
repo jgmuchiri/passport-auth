@@ -45,6 +45,15 @@
 								</div>
 							</div>
 					</div>
+					<div class="card-footer">
+						Client secret:<code>
+						 0zGiIEY4RWEqLdmidbeOSbSKZmYDAAw6I1nib9fu
+						</code>
+						<br/>
+						Client secret:<code>
+						 otC7dNFUOn1sfDN5bT33rl1rYa2LOJZZPYQzj46w
+						</code>
+					</div>
 				</div>
 			</div>
 		</div>
