@@ -31,6 +31,7 @@
                             <th>Client ID</th>
                             <th>Name</th>
                             <th>Secret</th>
+                            <th>Redirect</th>
                             <th></th>
                             <th></th>
                         </tr>
@@ -51,6 +52,10 @@
                             <!-- Secret -->
                             <td style="vertical-align: middle;">
                                 <code>{{ client.secret }}</code>
+                            </td>
+
+                            <td style="vertical-align: middle;">
+                                {{ client.redirect }}
                             </td>
 
                             <!-- Edit Button -->
