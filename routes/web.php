@@ -31,11 +31,11 @@ Route::get('/redirect', function (Request $request) {
 
     $query = http_build_query([
         'client_id' => 4,
-        'redirect_uri' => 'http://localhost:8000/callback',
+        'redirect_uri' => 'https://passport.gatebe.us/callback',
         'response_type' => 'code',
         'scope' => '',
         'state' => $state,
     ]);
 
-    return redirect('http://localhost:8000/c?'.$query);
+    return redirect('https://passport.gatebe.us/c?'.$query);
 });
